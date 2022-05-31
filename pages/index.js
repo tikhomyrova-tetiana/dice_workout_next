@@ -5,8 +5,8 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const dice = (min, max) => {
-    const min = 1;
-    const max = 100;
+    min = 1;
+    max = 100;
     return Math.floor(Math.random() * (max - min + 1) + min); //Максимум и минимум включаются
   };
 
