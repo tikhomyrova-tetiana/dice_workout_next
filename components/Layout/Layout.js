@@ -1,12 +1,12 @@
-import Footer from "../Footer/Footer";
+import StickyFooter from "../Footer/StickyFooter";
 import Navbar from "../Navbar/Navbar";
 
 export default function Layout({ children }) {
   return (
-    <div className="wrapper">
+    <div>
       <Navbar />
-      <main className="main">{children}</main>
-      <Footer />
+      <main>{children}</main>
+      <StickyFooter />
     </div>
   );
 }
